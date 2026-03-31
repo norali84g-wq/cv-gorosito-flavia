@@ -1,3 +1,21 @@
+/* Configuración de fuentes locales (Issue #4) */
+
+/* 1. Fuente Inter para el cuerpo del CV */
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+/* 2. Fuente Playfair Display para el nombre */
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400 900;
+    font-style: italic;
+}
+
 :root {
     /* Issue #3 y #6: Nombres en inglés con sentido */
     --primary-navy: #002366;
