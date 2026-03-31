@@ -17,13 +17,17 @@
 }
 
 :root {
-    /* Issue #3 y #6: Nombres en inglés con sentido */
-    --primary-navy: #002366;
-    --royal-blue: #004a99;
-    --white: #ffffff;
-    --soft-bg: #f2f4f7;
-    /* Un gris azulado muy suave y amable */
-    --border-light: #e1e4e8;
+    /* Issue #6: Nombres que explican la FUNCIÓN (lo que pidió Angelo) */
+    --main-title-color: #002366;
+    /* Antes: primary-navy (Para títulos) */
+    --accent-color: #004a99;
+    /* Antes: royal-blue (Para destacar) */
+    --main-bg-color: #f2f4f7;
+    /* Antes: soft-bg (Color de fondo) */
+    --card-bg-color: #ffffff;
+    /* Antes: white (Fondo de las tarjetas) */
+    --border-separator: #e1e4e8;
+    /* Antes: border-light (Para líneas y bordes) */
 }
 
 /* Issue #10: Unidades relativas */
