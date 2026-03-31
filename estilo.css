@@ -1,117 +1,133 @@
 :root {
-    /* Variables updated to English */
-    --main-blue: #004a99;
-    --main-cyan: #00aeef;
-    --white: #ffffff;
-    --background-gray: #f8f9fa;
+    /* Issue #3 y #6: Variables en inglés y con significado */
+    --primary-navy: #002366;    /* Azul Marino */
+    --accent-royal-blue: #004a99; /* Azul Francia */
+    --pure-white: #ffffff;
+    --light-bg-gray: #f8f9fa;
+    --border-color: #dddddd;
+    --text-color-main: #333333;
+}
+
+/* Issue #10: Unidades relativas (1rem = 16px) */
+html {
+    font-size: 16px;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    background-color: var(--white);
-    color: #333;
+    font-family: 'Inter', sans-serif; /* Consigna B */
+    background-color: var(--pure-white);
+    color: var(--text-color-main);
     margin: 0;
     line-height: 1.6;
 }
 
 .container {
-    max-width: 700px;
+    max-width: 43.75rem; /* 700px */
     margin: auto;
-    padding: 20px;
+    padding: 1.25rem;    /* 20px */
 }
 
 .main-header {
     text-align: center;
-    padding: 50px 0;
-    border-top: 10px solid var(--main-cyan);
-    border-bottom: 10px solid var(--main-blue);
+    padding: 3.125rem 0; /* 50px */
+    /* Usamos los nuevos azules marino y francia */
+    border-top: 0.625rem solid var(--primary-navy);
+    border-bottom: 0.625rem solid var(--accent-royal-blue);
 }
 
 .profile-picture {
-    width: 140px;
-    height: 140px;
+    /* Mantenemos el tamaño que ya corregiste (Issue #1) */
+    width: 8.75rem; /* 140px */
+    height: 8.75rem;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid var(--main-cyan);
-    margin-bottom: 15px;
+    border: 0.25rem solid var(--primary-navy);
+    margin-bottom: 0.9375rem; /* 15px */
 }
 
 .italic-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif; /* Consigna B */
     font-style: italic;
-    font-size: 2.5em;
-    color: var(--main-blue);
+    font-size: 2.5rem; /* 40px */
+    color: var(--primary-navy);
     margin: 0;
 }
 
 .subtitle {
-    color: var(--main-cyan);
+    color: var(--accent-royal-blue);
     font-weight: bold;
 }
 
-.section h2 {
-    color: var(--main-blue);
-    border-left: 5px solid var(--main-cyan);
-    padding-left: 10px;
-    margin-top: 35px;
+.resume-section h2 {
+    color: var(--primary-navy);
+    border-left: 0.3125rem solid var(--accent-royal-blue); /* 5px */
+    padding-left: 0.625rem; /* 10px */
+    margin-top: 2.1875rem; /* 35px */
     text-transform: uppercase;
 }
 
-.card {
-    background: var(--background-gray);
-    padding: 20px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
+.info-card {
+    background: var(--light-bg-gray);
+    padding: 1.25rem;
+    border-radius: 0.5rem; /* 8px */
+    border: 0.0625rem solid var(--border-color); /* 1px */
 }
 
-.logos-grid {
+.company-link, .email-link {
+    color: var(--accent-royal-blue);
+    text-decoration: none;
+}
+
+.skills-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
-    gap: 20px;
+    gap: 1.25rem; /* 20px */
 }
 
-.logo-item img {
-    width: 45px;
-    margin-bottom: 5px;
+.skill-item img {
+    width: 2.8125rem; /* 45px */
+    margin-bottom: 0.3125rem;
 }
 
-.logo-item span {
+.skill-item span {
     display: block;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-weight: bold;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem; /* 10px */
 }
 
-input,
-textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+input, textarea {
+    padding: 0.625rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.3125rem; /* 5px */
 }
 
-.main-btn,
-.interactive-btn {
-    background-color: var(--main-blue);
+.main-btn, .interactive-btn {
+    background-color: var(--primary-navy);
     color: white;
-    padding: 12px;
+    padding: 0.75rem; /* 12px */
     border: none;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     cursor: pointer;
     font-weight: bold;
     transition: 0.3s;
 }
 
-.main-btn:hover {
-    background-color: var(--main-cyan);
+.main-btn:hover, .interactive-btn:hover {
+    background-color: var(--accent-royal-blue);
+}
+
+.actions-container {
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .hidden {
     display: none;
 }
-.
