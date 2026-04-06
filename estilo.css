@@ -67,7 +67,7 @@ body {
     font-weight: bold;
 }
 
-.resume-section h2 {
+.section-title {
     color: var(--main-title-color);
     border-left: 0.3125rem solid var(--accent-color);
     padding-left: 0.625rem;

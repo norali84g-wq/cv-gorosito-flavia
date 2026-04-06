@@ -1,51 +1,50 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Profesional - Flavia Norali Gorosito Ledesma</title>
+    <title>Professional CV - Flavia Norali Gorosito Ledesma</title>
     <link rel="stylesheet" href="estilo.css">
-
 </head>
 
 <body>
 
     <header class="main-header">
         <div class="container">
-            <img src="foto-norali.jpg" alt="Foto de Flavia Gorosito" class="profile-picture">
-            <h1 class="profile-title"">Flavia Norali Gorosito Ledesma</h1>
-            <p class=" subtitle">Estudiante de Programación UTN | Operadora 911</p>
+            <img src="foto-norali.jpg" alt="Flavia Gorosito's Portrait" class="profile-picture">
+            <h1 class="profile-title">Flavia Norali Gorosito Ledesma</h1>
+            <p class="subtitle">Programming Student @ UTN | 911 Dispatcher</p>
         </div>
     </header>
 
     <main class="container">
         <section class="resume-section">
-            <h2>Sobre mí</h2>
+            <h2 class="section-title">About Me</h2>
             <div class="card">
-                <p>Estudiante de Programación en UTN La Plata con formación técnica en Criminalística. Especializada en
-                    resolución de problemas bajo presión y gestión de datos en entornos críticos como la CATE 911.</p>
+                <p>Programming student at UTN La Plata with a technical background in Forensics. Specialized in
+                    high-pressure problem solving and data management in critical environments like CATE 911.</p>
             </div>
         </section>
 
         <section class="resume-section">
-            <h2>Formación y Experiencia</h2>
+            <h2 class="section-title">Experience & Education</h2>
             <div class="card">
-                <p><strong>Operadora de Emergencias</strong> - <a href="https://www.gba.gob.ar/seguridad"
-                        target="_blank" rel="noopener noreferrer" class="company-link">Ministerio de Seguridad (911)</a>
+                <p><strong>Emergency Dispatcher</strong> - <a href="https://www.gba.gob.ar/seguridad" target="_blank"
+                        rel="noopener noreferrer" class="company-link">Ministry of Security (911)</a>
                 </p>
-                <p>Contacto: <a href="mailto:norali84g@gmail.com" class="email-link">norali84g@gmail.com</a></p>
+                <p>Contact: <a href="mailto:norali84g@gmail.com" class="email-link">norali84g@gmail.com</a></p>
                 <ul class="education-list">
-                    <li>Tecnicatura en Programación - UTN (3er cuatrimestre)</li>
-                    <li>Tecnicatura Superior en Criminalística (Laboratorio Químico)</li>
-                    <li><strong>Cursos adicionales:</strong> Operador de PC, Auxiliar Administrativo y Marketing.</li>
-                    <li><strong>Idiomas:</strong> Inglés (Nivel 3) | Francés (Nivel 1)</li>
+                    <li>Programming Degree - UTN (3rd Semester)</li>
+                    <li>Technical Degree in Criminalistics (Chemical Laboratory)</li>
+                    <li><strong>Additional Courses:</strong> PC Operator, Administrative Assistant, and Marketing.</li>
+                    <li><strong>Languages:</strong> English (Level 3) | French (Level 1)</li>
                 </ul>
             </div>
         </section>
 
         <section class="resume-section">
-            <h2>Tecnologías Dominadas</h2>
+            <h2 class="section-title">Skills & Technologies</h2>
             <div class="skills-grid">
                 <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
                         alt="C"><span>C</span></div>
@@ -67,24 +66,23 @@
                 <div class="skill-item"><img
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
                         alt="MySQL"><span>MySQL</span></div>
-                <div class="skill-item"><img src="https://www.heidisql.com/images/logo_64.png"
-                        alt="HeidiSQL"><span>HeidiSQL</span></div>
+                <div class="skill-item"><img src="heidisql.png" alt="HeidiSQL"><span>HeidiSQL</span></div>
             </div>
         </section>
 
         <section id="contact" class="resume-section">
-            <h2>Contacto</h2>
+            <h2 class="section-title">Contact</h2>
             <form id="contact-form" class="contact-form">
-                <input type="text" id="name-input" placeholder="Nombre completo" required>
-                <input type="email" id="email-input" placeholder="Email" required>
-                <textarea id="message-input" rows="3" placeholder="Mensaje..."></textarea>
-                <button type="submit" id="submit-btn" class="main-btn">Validar Envío</button>
-                <p id="success-msg" class="hidden">✅ Mensaje validado.</p>
+                <input type="text" id="name-input" placeholder="Full Name" required>
+                <input type="email" id="email-input" placeholder="Email Address" required>
+                <textarea id="message-input" rows="3" placeholder="Your message..."></textarea>
+                <button type="submit" id="submit-btn" class="main-btn">Validate & Send</button>
+                <p id="success-msg" class="hidden">✅ Form validated successfully.</p>
             </form>
         </section>
 
         <div class="footer-actions">
-            <button onclick="irArriba()" class="interactive-btn">Volver al inicio ↑</button>
+            <button onclick="irArriba()" class="interactive-btn">Back to top ↑</button>
         </div>
     </main>
 
