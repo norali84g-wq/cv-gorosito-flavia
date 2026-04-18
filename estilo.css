@@ -1,14 +1,14 @@
 :root {
     --headway-blue: #0c3764;
     --headway-cyan: #0c3764;
-    --bg-main: #b9a1982b;
-    --card-bg: #e3d5d5;
+    --white: #b9a1982b;
+    --gray-background: #e3d5d5;
     --text-dark: #333333;
 }
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: var(--bg-main);
+    background-color: var(--white);
     color: var(--text-dark);
     margin: 0;
     line-height: 1.6;
@@ -58,7 +58,7 @@ body {
 }
 
 .card {
-    background-color: var(--card-bg);
+    background-color: var(--gray-background);
     padding: 20px;
     border-radius: 8px;
     border: 1px solid #ddd;
