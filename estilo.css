@@ -46,6 +46,7 @@ body {
 
 .subtitulo {
     color: var(--secondary-color);
+    /* este comentario es para generar un cambio */
     font-weight: bold;
 }
 
