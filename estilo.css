@@ -15,25 +15,25 @@ body {
 }
 
 .container {
-    max-width: 700px;
+    max-width: 43.75rem;
     margin: auto;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .header-principal {
     text-align: center;
-    padding: 50px 0;
-    border-top: 10px solid var(--cian-headway);
-    border-bottom: 10px solid var(--azul-headway);
+    padding: 3.125rem 0;
+    border-top: 0.625rem solid var(--cian-headway);
+    border-bottom: 0.625rem solid var(--azul-headway);
 }
 
 .foto-perfil {
-    width: 140px;
-    height: 140px;
+    width: 8.75rem;
+    height: 8.75rem;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid var(--cian-headway);
-    margin-bottom: 15px;
+    border: 0.25rem solid var(--cian-headway);
+    margin-bottom: 0.9375rem;
 }
 
 .nombre-cursiva {
@@ -51,29 +51,29 @@ body {
 
 .seccion h2 {
     color: var(--azul-headway);
-    border-left: 5px solid var(--cian-headway);
-    padding-left: 10px;
-    margin-top: 35px;
+    border-left: 0.3125rem solid var(--cian-headway);
+    padding-left: 0.625rem;
+    margin-top: 2.1875rem;
     text-transform: uppercase;
 }
 
 .card {
     background: var(--gris-fondo);
-    padding: 20px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid #ddd;
 }
 
 .logos-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .logo-item img {
-    width: 45px;
-    margin-bottom: 5px;
+    width: 2.815rem;
+    margin-bottom: 0.3125rem;
 }
 
 .logo-item span {
@@ -85,23 +85,23 @@ body {
 .contacto-form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 input,
 textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 0.625rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.3125rem;
 }
 
 .btn-principal,
 .btn-interactivo {
     background-color: var(--azul-headway);
     color: white;
-    padding: 12px;
+    padding: 0.75rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     cursor: pointer;
     font-weight: bold;
     transition: 0.3s;
