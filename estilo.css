@@ -49,11 +49,12 @@ body {
     font-weight: bold;
 }
 
-.section h2 {
+.section-title {
     color: var(--primary-color);
-    border-left: 0.3125rem solid var(--primary-color);
+    border-left: 0.3125rem solid var(--secondary-color);
     padding-left: 0.625rem;
     margin-top: 2.1875rem;
+    text-transform: uppercase;
 }
 
 .card {
