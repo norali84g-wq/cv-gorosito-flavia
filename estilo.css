@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    /*comentario para generar un cambio*/
     background-color: var(--bg-main);
     color: var(--text-main);
     margin: 0;
