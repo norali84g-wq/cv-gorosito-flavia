@@ -1,80 +1,79 @@
 :root {
-    --headway-blue: #0c3764;
-    --headway-cyan: #0c3764;
-    --white: #b9a1982b;
-    --gray-background: #e3d5d5;
-    --text-dark: #333333;
+    --primary-color: #0c3764;
+    --secondary-color: #125973;
+    --bg-main: #f4f1f0;
+    --bg-card: #ffffff;
+    --text-main: #333333;
 }
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: var(--white);
-    color: var(--text-dark);
+    background-color: var(--bg-main);
+    color: var(--text-main);
     margin: 0;
     line-height: 1.6;
 }
 
 .container {
-    max-width: 700px;
+    max-width: 43.75rem;
     margin: auto;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .main-header {
     text-align: center;
-    padding: 50px 0;
-    border-top: 10px solid var(--headway-blue);
-    border-bottom: 10px solid var(--headway-blue);
+    padding: 3.125rem 0;
+    border-top: 0.625rem solid var(--secondary-color);
+    border-bottom: 0.625rem solid var(--primary-color);
 }
 
 .profile-photo {
-    width: 140px;
-    height: 140px;
+    width: 8.75rem;
+    height: 8.75rem;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid var(--headway-blue);
-    margin-bottom: 15px;
+    border: 0.25rem solid var(--primary-color);
+    margin-bottom: 0.9375rem;
 }
 
 .name-italic {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-size: 2.5em;
-    color: var(--headway-blue);
+    color: var(--primary-color);
     margin: 0;
 }
 
 .subtitle {
-    color: #2f4f5e !important;
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
 .section h2 {
-    color: var(--headway-blue);
-    border-left: 5px solid var(--headway-blue);
-    padding-left: 10px;
-    margin-top: 35px;
-    text-transform: uppercase;
+    color: var(--primary-color);
+    border-left: 0.3125rem solid var(--primary-color);
+    padding-left: 0.625rem;
+    margin-top: 2.1875rem;
 }
 
 .card {
-    background-color: var(--gray-background);
-    padding: 20px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
+    background: var(--bg-card);
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid #ddd;
+    margin-bottom: 1.25rem;
 }
 
 .logos-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .logo-item img {
-    width: 45px;
-    margin-bottom: 5px;
+    width: 2.815rem;
+    margin-bottom: 0.3125rem;
 }
 
 .logo-item span {
@@ -86,30 +85,31 @@ body {
 .contacto-form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 input,
 textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 0.625rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.3125rem;
 }
 
 .main-btn,
 .interactive-btn {
-    background-color: var(--headway-blue);
+    background-color: var(--primary-color);
     color: white;
-    padding: 12px;
+    padding: 0.75rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     cursor: pointer;
     font-weight: bold;
     transition: 0.3s;
+    margin-bottom: 0.9375rem;
 }
 
 .main-btn:hover {
-    background-color: var(--headway-cyan);
+    background-color: var(--secondary-color);
 }
 
 .hidden {
@@ -118,9 +118,9 @@ textarea {
 
 .education-list {
     list-style: disc;
-    padding-left: 20px;
-    margin-top: 10px;
-    color: var(--text-dark);
+    padding-left: 1.25rem;
+    margin-top: 0.625rem;
+    color: var(--text-main);
 }
 
 @font-face {
