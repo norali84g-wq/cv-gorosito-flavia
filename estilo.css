@@ -20,19 +20,19 @@ body {
     padding: 1.25rem;
 }
 
-.header-principal {
+.main-header {
     text-align: center;
     padding: 3.125rem 0;
     border-top: 0.625rem solid var(--secondary-color);
     border-bottom: 0.625rem solid var(--primary-color);
 }
 
-.foto-perfil {
+.profile-photo {
     width: 8.75rem;
     height: 8.75rem;
     border-radius: 50%;
     object-fit: cover;
-    border: 0.25rem solid var(--secondary-color);
+    border: 0.25rem solid var(--primary-color);
     margin-bottom: 0.9375rem;
 }
 
@@ -44,17 +44,16 @@ body {
     margin: 0;
 }
 
-.subtitulo {
+.subtitle {
     color: var(--secondary-color);
     font-weight: bold;
 }
 
-.seccion h2 {
+.section h2 {
     color: var(--primary-color);
-    border-left: 0.3125rem solid var(--secondary-color);
+    border-left: 0.3125rem solid var(--primary-color);
     padding-left: 0.625rem;
     margin-top: 2.1875rem;
-
 }
 
 .card {
@@ -62,6 +61,7 @@ body {
     padding: 1.25rem;
     border-radius: 0.5rem;
     border: 0.0625rem solid #ddd;
+    margin-bottom: 1.25rem;
 }
 
 .logos-grid {
@@ -95,8 +95,8 @@ textarea {
     border-radius: 0.3125rem;
 }
 
-.btn-principal,
-.btn-interactivo {
+.main-btn,
+.interactive-btn {
     background-color: var(--primary-color);
     color: white;
     padding: 0.75rem;
@@ -105,27 +105,41 @@ textarea {
     cursor: pointer;
     font-weight: bold;
     transition: 0.3s;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
-.btn-principal:hover {
+.main-btn:hover {
     background-color: var(--secondary-color);
 }
 
-.oculto {
+.hidden {
     display: none;
+}
+
+.education-list {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin-top: 0.625rem;
+    color: var(--text-main);
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/inter-v20-latin/inter-v20-latin-regular.woff2') format('woff2');
+    src: url('fonts/inter-v18-latin-regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
+    font-family: 'Inter';
+    src: url('fonts/inter-v18-latin-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Playfair Display';
-    src: url('fonts/playfair-display-v40-latin/playfair-display-v40-latin-regular.woff2') format('woff2');
+    src: url('fonts/playfair-display-v37-latin-600italic.woff2') format('woff2');
     font-weight: 600;
     font-style: italic;
 }

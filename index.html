@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,16 +10,16 @@
 
 <body>
 
-    <header class="header-principal">
+    <header class="main-header">
         <div class="container">
             <img src="foto-optimizada.jpg" alt="Foto de Flavia Gorosito" class="foto-perfil">
             <h1 class="profile-name">Flavia Norali Gorosito Ledesma</h1>
-            <p class="subtitulo">Estudiante de Programación UTN | Operadora 911</p>
+            <p class="subtitle">Estudiante de Programación UTN | Operadora 911</p>
         </div>
     </header>
 
     <main class="container">
-        <section class="seccion">
+        <section class="section">
             <h2>Sobre mí</h2>
             <div class="card">
                 <p>Estudiante de Programación en UTN La Plata con formación técnica en Criminalística. Especializada en
@@ -27,15 +27,15 @@
             </div>
         </section>
 
-        <section class="seccion">
+        <section class="section">
             <h2>Formación y Experiencia</h2>
             <div class="card">
                 <p><strong>Operadora de Emergencias</strong> - <a href="https://www.gba.gob.ar/seguridad"
-                        target="_blank" rel="noopener noreferrer" class="link-empresa">Ministerio de Seguridad (911)</a>
+                        target="_blank" rel="noopener noreferrer" class="company-link">Ministerio de Seguridad (911)</a>
                 </p>
-                <p>Contacto: <a href="mailto:norali84g@gmail.com" class="link-mail">norali84g@gmail.com</a></p>
+                <p>Contacto: <a href="mailto:norali84g@gmail.com" class="mail-link">norali84g@gmail.com</a></p>
 
-                <ul class="lista-estudios">
+                <ul class="education-list">
                     <li>Tecnicatura en Programación - UTN (3er cuatrimestre)</li>
                     <li>Tecnicatura Superior en Criminalística (Laboratorio Químico)</li>
                     <li><strong>Cursos adicionales:</strong> Operador de PC, Auxiliar Administrativo y Marketing.</li>
@@ -44,7 +44,7 @@
             </div>
         </section>
 
-        <section class="seccion">
+        <section class="section">
             <h2>Tecnologías Dominadas</h2>
             <div class="logos-grid">
                 <div class="logo-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
@@ -72,19 +72,19 @@
             </div>
         </section>
 
-        <section id="contacto" class="seccion">
+        <section id="contact" class="section">
             <h2>Contacto</h2>
-            <form id="form-contacto" class="contacto-form">
-                <input type="text" id="input-nombre" placeholder="Nombre completo" required>
+            <form id="contact-form" class="contact-form">
+                <input type="text" id="input-name" placeholder="Nombre completo" required>
                 <input type="email" id="input-email" placeholder="Email" required>
-                <textarea id="input-mensaje" rows="3" placeholder="Mensaje..."></textarea>
-                <button type="submit" id="btn-enviar" class="btn-principal">Validar Envío</button>
-                <p id="mensaje-exito" class="oculto">✅ Mensaje validado correctamente.</p>
+                <textarea id="input-message" rows="3" placeholder="Mensaje..."></textarea>
+                <button type="submit" id="btn-send" class="main-btn">Send Message</button>
+                <p id="success-message" class="hidden">✅ Message validated successfully.</p>
             </form>
         </section>
 
-        <div class="footer-acciones">
-            <button onclick="irArriba()" class="btn-interactivo">Volver al inicio ↑</button>
+        <div class="footer-actions">
+            <button onclick="scrollToTop()" class="interactive-btn">Back to top ↑</button>
         </div>
     </main>
 
