@@ -49,7 +49,7 @@ body {
     font-weight: bold;
 }
 
-.section h2 {
+.section-title {
     color: var(--primary-color);
     border-left: 0.3125rem solid var(--primary-color);
     padding-left: 0.625rem;
