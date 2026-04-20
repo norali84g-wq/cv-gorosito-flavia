@@ -125,7 +125,7 @@ textarea {
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/inter-v18-latin-regular.woff2') format('woff2');
+    src: url('fonts/inter-v20-latin-regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
@@ -143,3 +143,5 @@ textarea {
     font-weight: 600;
     font-style: italic;
 }
+
+/* comentario para generar un cambio en el commit */
