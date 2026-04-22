@@ -122,3 +122,10 @@ textarea {
     margin-top: 0.625rem;
     color: var(--text-main);
 }
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/inter-v20-latin-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
