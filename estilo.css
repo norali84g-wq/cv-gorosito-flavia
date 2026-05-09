@@ -82,13 +82,14 @@ body {
     font-weight: bold;
 }
 
-.contacto-form {
+.contact-form {
     display: flex;
     flex-direction: column;
     gap: 0.625rem;
 }
 
 .form-input {
+    width: 100%;
     padding: 0.625rem;
     border: 0.0625rem solid #ccc;
     border-radius: 0.3125rem;
@@ -125,21 +126,7 @@ body {
 
 @font-face {
     font-family: 'Inter';
-    src: url('fonts/inter-v18-latin-regular.woff2') format('woff2');
+    src: url('fonts/inter-v20-latin-regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url('fonts/inter-v18-latin-700.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Playfair Display';
-    src: url('fonts/playfair-display-v37-latin-600italic.woff2') format('woff2');
-    font-weight: 600;
-    font-style: italic;
 }
